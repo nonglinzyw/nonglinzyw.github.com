@@ -1,0 +1,28 @@
+
+/*content*/
+.banner{position: relative;}
+.itemsIndex{ position: absolute; bottom: 0px; right: 20px;}
+.itemsIndex span{ display: inline-block; width: 16px; height: 16px; background: #bebbab; margin-left: 4px; cursor: pointer;}
+.itemsIndex span.on{background: #fdde11;}
+.itemsWrapper{ width: 1000px; height: 322px; overflow: hidden; margin-bottom: 10px;}
+.itemsWrapper .item{ display: absolute;}
+.colcontent{ float: left;}
+.colcontent h3,.products h3{ position: relative; color: #115916; font-size: 16px; border-bottom:2px dotted #d0e0d1;  margin-bottom: 10px; padding-left: 14px;}
+.icon{ position: absolute; left: 2px;}
+.c1{ width: 360px; margin-right: 18px;}
+.c1 p{ text-indent: 28px;}
+.c2{ width: 340px; margin-right: 18px;}
+.c2 .time{ float: right; color: #afafaf;}
+.c2 a{ color: #333;}
+.c2 a:hover{ background: none; text-decoration: underline;}
+.c3{ width: 264px;}
+.wrapper{ clear: both; overflow: hidden; margin-bottom: 10px;}
+.btn{ display: inline-block; font-size: 28px; font-weight: bold; width: 20px; height: 20px; padding: 5px; position: relative; top: 60px; color:#EBCA48; cursor: pointer;}
+.carousel{width: 1000px; height: 170px; position: relative;}
+.next,.prev{ position: absolute;}
+.prev{left: 4px;}
+.next{right: 4px;}
+.carouselContent{ width: 930px; height: 170px; overflow: hidden; position: absolute; left: 44px}
+.carouselContent .item { width: 170px; height: 170px; float: left; overflow: hidden; margin-right: 10px; border: 1px solid #999; padding: 2px; position: relative; cursor: pointer;}
+.carouselContent .item p{ background: rgba(0,0,0,0.6); color: #fff; position: relative; top: 0px; left: 0px; padding: 14px 0px 0px 40px; width: 170px; height: 170px; font-size: 16px;}
+.carouseItmeWrapper{ position: relative;}
